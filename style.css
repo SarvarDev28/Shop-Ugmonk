@@ -175,3 +175,65 @@ a {
     font-size: 0.9rem;
 
 }
+
+.market-button{
+    display: flex;
+    justify-content: center;
+    top: 3rem;
+}
+
+.button-txt {
+    width: 14rem;
+    height: 2rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.4rem;
+}
+
+.analog-section {
+    width: 99vw;
+    height: 85vh;
+    position: relative;
+    top: 8rem;
+}
+
+.analog-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.analog-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 15rem;
+    left: 10rem;
+    gap: 1rem;
+}
+
+.analog-tittle {
+    color: white;
+    font-size: 2rem;
+}
+
+.analog-button {
+    display: flex;
+    text-align: center;
+}
+
+.analog-btton {
+    width: 11rem;
+    height: 2.5rem;
+    color: white;
+    background-color: rgba(126, 110, 69, 1);
+    border-color: rgba(144, 106, 12, 0.349);
+}
+
+.analog-link {
+    text-decoration: underline;
+    color: white;
+}
