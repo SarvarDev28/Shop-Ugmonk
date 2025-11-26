@@ -196,44 +196,232 @@ a {
     width: 99vw;
     height: 85vh;
     position: relative;
-    top: 8rem;
+    margin-top: 8rem;
 }
 
-.analog-pic {
+.analog-texts {
+    position: absolute;
+    top: 17rem;
+    left: 12rem;
+}
+
+.analog-tittle {
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0%;
+}
+
+.analog-button {
+    padding-top: 2rem;
+}
+
+.analog-btton {
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    background-color: rgba(126, 110, 69, 1);
+    border: rgba(126, 110, 69, 1);
+}
+
+.analog-link {
+    color: white;
+    text-decoration: underline;
+    top: 2rem;
+    font-size: 0.8rem;
+}
+
+.journal-section {
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(49, 47, 46, 1);
+    position: relative;
+}
+
+.journal-main {
+    background-color: white;
+    width: 60%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: rgba(49, 47, 46, 1);
+}
+
+.journal-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+
+}
+
+.journal-txt {
+    padding-top: 1rem;
+    font-size: 0.7rem;
+}
+
+.journal-link {
+    font-size: 0.6rem;
+    text-decoration: underline;
+    padding-top: 1.5rem;
+}
+
+.journal-img {
+    width: 70%;
+}
+
+.form-section {
+    padding-top: 6rem;
+    width: 99vw;
+    height: 185vh;
+}
+
+.form-text {
+    width: 100%;
+    text-align: center;
+    color: rgba(26, 26, 26, 1);
+}
+
+.form-photos {
+    width: 90%;
+    gap: 5rem;
+    padding-top: 4rem;
+    padding-left: 14%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-photo:nth-child(3) {
+    grid-column: span 2
+}
+
+.form-link {
+    text-decoration: underline;
+}
+
+.writing-section {
+    margin-top: 15rem;
+    width: 99vw;
+    height: 80vh;
+    background-image: url('images/writing1.jpg');
+    background-size: cover;
+}
+
+.writing-section__text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.writing-section__tittle {
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
+
+.writing-section__link {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+}
+
+.comment-section {
+    width: 99vw;
+    height: 65vh;
+    background-color: rgba(206, 211, 202, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.comment-tittle {
+    color: rgba(26, 26, 26, 1);
+    font-size: 2rem;
+}
+
+.comment-txt {
+    padding-top: 2rem;
+    font-size: 0.7rem;
+    color: rgba(26, 26, 26, 1);
+}
+
+.comment-button {
+    padding-top: 2.4rem;
+}
+
+.comment-btton {
+    font-size: 1.5rem;
+    width: 20rem;
+}
+
+.footer {
+    width: 99vw;
+    height: 50vh;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.footer-text {
+    width: 100%;
+    display: flex;
+    gap: 20rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:40%;
+    padding-top: 9%;
+    padding-left: 8%;
+}
+
+.footer-link {
+    padding-top: 7px;
+}
+
+.footer-logo {
+    width: 4rem;
+    height: 6rem;
+}
+
+.footer-logo > img {
     width: 100%;
     height: 100%;
 }
 
-.analog-texts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    z-index: 2;
-    top: 15rem;
-    left: 10rem;
-    gap: 1rem;
+.footer-end {
+    padding-top: 8rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 25%;
 }
 
-.analog-tittle {
-    color: white;
-    font-size: 2rem;
+.footer-logo:nth-child(3) {
+    grid-column: span 2
 }
 
-.analog-button {
-    display: flex;
-    text-align: center;
+.footer-end__text {
+    text-align: right;
+    padding-right: 1rem
 }
 
-.analog-btton {
-    width: 11rem;
-    height: 2.5rem;
-    color: white;
-    background-color: rgba(126, 110, 69, 1);
-    border-color: rgba(144, 106, 12, 0.349);
+.ugmonk2021 {
+    color: rgba(26, 26, 26, 1);
 }
 
-.analog-link {
-    text-decoration: underline;
-    color: white;
+.footer-end__txt {
+    padding-top: 0.5rem;
+}
+
+.footer-social {
+    text-align: right;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
 }
